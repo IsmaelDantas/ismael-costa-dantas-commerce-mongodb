@@ -1,1 +1,1 @@
-db.produtos.find({}, {"nome": 1, "qtdVendida": 1}).sort({"qtdVendida": 1})
+db.produtos.find({}, { nome: 1, quantidadeVendida: 1 }).sort({ quantidadeVendida: 1 });
